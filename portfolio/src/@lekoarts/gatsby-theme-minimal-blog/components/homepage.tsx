@@ -37,10 +37,10 @@ const Homepage = ({ posts }: PostsProps) => {
   return (
     <Layout>
       <h1 sx={visuallyHidden}>{siteTitle}</h1>
-      <section sx={{ mb: [5, 6, 7], p: { fontSize: [1, 2, 3], mt: 2 }, variant: `section_hero` }}>
+      <section sx={{ height: '100vh', p: { fontSize: [1, 2, 3], mt: 2 }, variant: `section_hero` }}>
         <Hero />
       </section>
-      <Title text="Work Experience">
+      <Title text="My Work Experience">
         <Link to={replaceSlashes(`/${basePath}/${blogPath}`)}>View All Work Experiences</Link>
       </Title>
       <Listing posts={posts} showTags={false} />
