@@ -40,7 +40,7 @@ module.exports = {
           },
           {
             name: `Resume`,
-            url: `https://drive.google.com/file/d/145MIltYHwr_nGwXYs3G00BMs5YHV2Gay/view?usp=sharing`,
+            url: `https://drive.google.com/file/d/1JVJydHWmEt1cQyUDFwcgey20r1P50vHj/view?usp=sharing`,
           },
         ],
       },
