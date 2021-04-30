@@ -8,7 +8,7 @@ import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/
 import replaceSlashes from "@lekoarts/gatsby-theme-minimal-blog/src/utils/replaceSlashes"
 import SEO from "@lekoarts/gatsby-theme-minimal-blog/src/components/seo"
 // @ts-ignore
-import Title from "../texts/title"
+import Title from "../../../src/@lekoarts/gatsby-theme-minimal-blog/texts/Title"
 
 type PostsProps = {
   posts: {

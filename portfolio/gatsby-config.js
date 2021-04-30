@@ -6,10 +6,11 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
-    title: `Personal Portfolio`,
+    title: `Ryan Hong`,
     description: `Personal portfolio utilizing Gatsby Lekoarts theme`,
     author: `@ryan-hong`,
-    siteTitleAlt: `Personal Portfolio`,
+    siteTitle: `Ryan Hong`,
+    siteTitleAlt: `Ryan Hong`,
   },
   plugins: [
     {
@@ -18,22 +19,26 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
+            title: `Work Experience`,
+            slug: `/experience`,
           },
           {
-            title: `About`,
-            slug: `/about`,
+            title: `Projects`,
+            slug: `/projects`,
           },
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `GitHub`,
+            url: `https://github.com/ryan-hong`,
           },
           {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `LinkedIn`,
+            url: `https://www.linkedin.com/in/ryan-wai-hong/`,
+          },
+          {
+            name: `Resume`,
+            url: `https://drive.google.com/file/d/145MIltYHwr_nGwXYs3G00BMs5YHV2Gay/view?usp=sharing`,
           },
         ],
       },
@@ -57,12 +62,12 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
+            src: `/logo.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
+            src: `/logo.png`,
             sizes: `512x512`,
             type: `image/png`,
           },

@@ -9,10 +9,13 @@ import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/
 import useSiteMetadata from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-site-metadata"
 import replaceSlashes from "@lekoarts/gatsby-theme-minimal-blog/src/utils/replaceSlashes"
 import { visuallyHidden } from "@lekoarts/gatsby-theme-minimal-blog/src/styles/utils"
+import Projects from "../../../../src/components/sections/projects"
 // @ts-ignore
 import Hero from "../texts/hero"
 // @ts-ignore
-import Bottom from "@lekoarts/gatsby-theme-minimal-blog/src/texts/bottom"
+import About from "../texts/about"
+// @ts-ignore
+import Bottom from "../texts/bottom"
 
 type PostsProps = {
   posts: {
@@ -37,16 +40,22 @@ const Homepage = ({ posts }: PostsProps) => {
   return (
     <Layout>
       <h1 sx={visuallyHidden}>{siteTitle}</h1>
-      <section sx={{ height: '100vh', p: { fontSize: [1, 2, 3], mt: 2 }, variant: `section_hero` }}>
+      <section sx={{ height: '90vh', p: { fontSize: [1, 2, 3], mt: 2 }, variant: `section_hero` }}>
         <Hero />
+        <div sx={{ mt: [5, 6, null]}}>
+          <About />
+        </div>
       </section>
-      <Title text="My Work Experience">
+      <section sx={{ mt: [6, null, null]}}>
+        <Title text="My Work Experience">
         <Link to={replaceSlashes(`/${basePath}/${blogPath}`)}>View All Work Experiences</Link>
       </Title>
       <Listing posts={posts} showTags={false} />
       <List sx={{ variant: `section_bottom` }}>
         <Bottom />
       </List>
+      </section>
+      
     </Layout>
   )
 }

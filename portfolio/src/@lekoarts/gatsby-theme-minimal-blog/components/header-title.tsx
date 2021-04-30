@@ -5,7 +5,7 @@ import replaceSlashes from "@lekoarts/gatsby-theme-minimal-blog/src/utils/replac
 import useSiteMetadata from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-site-metadata"
 import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config"
 //@ts-ignore
-import logo from "../../../../static/logo.png"
+import logo from "../../../../static/favicon.png"
 
 const HeaderTitle = () => {
   const { siteTitle } = useSiteMetadata()
