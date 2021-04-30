@@ -59,7 +59,7 @@ const SEO = ({
       <meta name="gatsby-theme" content="@lekoarts/gatsby-theme-minimal-blog" />
       <link rel="icon" type="image/png" sizes="32x32" href={withPrefix(`/favicon.png`)} />
       <link rel="icon" type="image/png" sizes="16x16" href={withPrefix(`/favicon.png`)} />
-      <link rel="apple-touch-icon" sizes="180x180" href={withPrefix(`/apple-touch-icon.png`)} />
+      <link rel="apple-touch-icon" sizes="180x180" href={withPrefix(`/favicon.png`)} />
       {canonicalUrl ? <link rel="canonical" href={canonicalUrl} /> : null}
       {children}
     </Helmet>
