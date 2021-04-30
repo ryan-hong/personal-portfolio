@@ -12,7 +12,7 @@ module.exports = {
     author: `@ryan-hong`,
     siteTitle: `Ryan Hong`,
     siteTitleAlt: `Ryan Hong`,
-    siteImage: `/banner.jpg`,
+    siteImage: `/logo.png`,
   },
   plugins: [
     {
