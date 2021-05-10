@@ -3,7 +3,7 @@ Personal Portfolio.  Logo made from LogoMakr.com
   Personal Portfolio Using GatsbyJS Theme
 </h1>
 
-You can view the website [**Here**](www.ryanhong.ca)
+You can view the website [**here**](www.ryanhong.ca)
 
 
 
