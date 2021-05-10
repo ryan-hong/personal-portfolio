@@ -3,6 +3,10 @@ Personal Portfolio.  Logo made from LogoMakr.com
   Personal Portfolio Using GatsbyJS Theme
 </h1>
 
+You can view the website [**Here**](www.ryanhong.ca)
+
+
+
 <p align="center">
   <a href="https://minimal-blog.lekoarts.de">
     <img alt="LekoArts" src="https://img.lekoarts.de/gatsby/gatsby-site-illustration.png" />
