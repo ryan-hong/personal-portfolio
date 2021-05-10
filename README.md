@@ -1,4 +1,7 @@
 Personal Portfolio.  Logo made from LogoMakr.com
+<h1 align="center">
+  Personal Portfolio Using GatsbyJS Theme
+</h1>
 
 <p align="center">
   <a href="https://minimal-blog.lekoarts.de">
